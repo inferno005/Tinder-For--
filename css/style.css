@@ -1,0 +1,89 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+#apple{
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.test{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#f8f9fa;
+}
+.g2>img{
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 40px;
+}
+.g3{
+  margin-top: 20px;
+}
+.g4{
+  display: flex;
+  justify-content: space-around;
+  gap: 120px;
+  align-items: space-between;
+  margin-top: 30px;
+}
+.g4>div>img{
+  height: 30px;
+  margin-bottom: 50px;
+}
+.g1{
+  margin-top: 100px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.s2{
+  background-color: #212529;
+  color: white;
+  border-color: #212529;
+}
+#boom{
+  color: white;
+  background-color: #212529;
+  border-color: #212529;
+}
+#inferno{
+  padding-left: 100px;
+}
+.text-center{
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.border-primary{
+  border-top: #212529;
+}
+.col{
+  border-color: #212529;
+  
+}
